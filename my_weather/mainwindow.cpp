@@ -35,6 +35,9 @@ MainWindow::~MainWindow()
     delete exit_menu;
     delete exit_act;
     delete my_NetAccessManger;
+    exit_menu = nullptr;
+    exit_act = nullptr;
+    my_NetAccessManger = nullptr;
 }
 
 void MainWindow::init_ui_list()
